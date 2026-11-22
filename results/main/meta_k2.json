@@ -1,0 +1,21 @@
+{
+  "k_shot": 2,
+  "n_categories": 15,
+  "complete": true,
+  "missing": [],
+  "elapsed_min_this_session": 80.6,
+  "commit": "ef56d5c8ab2f1feb7dda1c93b25cc3f73f0960d7",
+  "backbone": "facebook/dinov2-with-registers-giant",
+  "image_res": 672,
+  "layers": "-12,-13,-14,-15,-16,-17,-18",
+  "precision": "fp16",
+  "batch_size": 1,
+  "seed": 42,
+  "pca_ev": 0.99,
+  "agg_method": "mean",
+  "img_score_agg": "mtop1p",
+  "aug_count": 30,
+  "saved_at": "2026-11-22T14:19:59",
+  "gpu": "Tesla T4",
+  "torch": "2.14.1+cu130"
+}

@@ -1,0 +1,40 @@
+{
+  "backbone": "small",
+  "model_ckpt": "facebook/dinov2-small",
+  "layers": "-4,-5",
+  "categories": [
+    "bottle",
+    "carpet",
+    "capsule",
+    "cable",
+    "screw",
+    "transistor"
+  ],
+  "k_shot": 4,
+  "aug_count": 30,
+  "aug_list": [
+    "rotate"
+  ],
+  "no_aug": [
+    "transistor"
+  ],
+  "image_res": 672,
+  "pca_ev": [
+    0.95,
+    0.99,
+    1.0
+  ],
+  "img_score_agg": [
+    "mtop1p",
+    "max",
+    "mean",
+    "p99"
+  ],
+  "batch_train": 1,
+  "batch_test": 4,
+  "seed": 42,
+  "precision": "fp16",
+  "gpu": "Tesla T4",
+  "torch": "2.14.1+cu130",
+  "updated": "2026-11-22T18:35:35"
+}
